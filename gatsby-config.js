@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `Moses Maximino Cosme II`,
@@ -25,7 +29,13 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-16x16.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: process.env.WPGraphQL,
       },
     },
   ],

@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Full Stack Developer | Wordpress | React" />
     <section class="hero-area bg-primary" id="parallax">
   <div class="container">
     <div class="row">

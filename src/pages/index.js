@@ -105,7 +105,7 @@ const IndexPage = ({ data }) => (
           {data.allWpPost.edges.map(post => {
             return (
               <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                <Link to={`/${post.node.slug}`}>
+                <Link to={`/blog/${post.node.slug}`}>
                   <article class="card shadow">
                     <img 
                       class="rounded card-img-top" 

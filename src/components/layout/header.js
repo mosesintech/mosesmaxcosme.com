@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
       <header class="navigation fixed-top">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <Link class="navbar-brand font-tertiary h3" to="/">
-            {siteTitle}
+            <h3 style={{color:'#FFF'}}>{siteTitle}</h3>
           </Link>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
             aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">

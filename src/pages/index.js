@@ -52,6 +52,11 @@ const IndexPage = ({ data }) => (
       </div>
       <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
         <li class="mb-3">
+          <a class="text-white" href="https://github.com/mosesintech" target="_blank" rel="noreferrer noopener">
+            <i class="ti-github"></i>
+          </a>
+        </li>
+        <li class="mb-3">
           <a class="text-white" href="https://instagram.com/mosesintech" target="_blank" rel="noreferrer noopener">
             <i class="ti-instagram"></i>
           </a>

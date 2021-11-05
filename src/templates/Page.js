@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Posts from "../components/pages/posts"
+import About from '../components/pages/about'
 import Default from "../components/pages/default"
 
 export default function PageTemplate({ data }) {
@@ -10,6 +11,8 @@ export default function PageTemplate({ data }) {
   switch (page.title) {
     case 'Blog':
       return <Posts {...page} {...posts} />
+    case 'About':
+      return <About {...page} />
     default:
       return <Default {...page} />;
   }

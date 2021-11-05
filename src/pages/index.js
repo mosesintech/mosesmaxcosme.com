@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
       <div class="container">
         <div class="row">
           <div class="col-lg-11 mx-auto">
-            <h1 class="text-white font-tertiary">Moses <br />Maximino<br /> Cosme II</h1>
+            <h1 class="text-white font-tertiary headliner">Moses <br />Maximino<br /> Cosme II</h1>
           </div>
         </div>
       </div>

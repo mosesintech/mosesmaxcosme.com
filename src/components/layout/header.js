@@ -34,10 +34,7 @@ const Header = ({ siteTitle }) => (
               {data.allWpMenu.edges[0].node.menuItems.nodes.map(item => {
                 return (
                   <li class="nav-item">
-                    <Link 
-                      class="nav-link" 
-                      to={`/${item.label.toLowerCase()}`}
-                    >
+                    <Link class="nav-link" to={`/${item.label.toLowerCase()}`}>
                       {item.label}
                     </Link>
                   </li>

@@ -841,4 +841,11 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
+
+@media (max-width: 991px) {
+  .headliner {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

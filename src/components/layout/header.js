@@ -31,9 +31,10 @@ const Header = ({ siteTitle }) => (
           <div class="collapse navbar-collapse text-center" id="navigation">
             <ul class="navbar-nav ml-auto">
               {data.allWpMenu.edges[0].node.menuItems.nodes.map(item => {
+                const label = item.label.toLowerCase();
                 return (
                   <li class="nav-item">
-                    <Link class="nav-link" to={`/${item.label.toLowerCase()}`}>
+                    <Link class={`nav-link ${label}-link`} to={`/${label}`}>
                       {item.label}
                     </Link>
                   </li>

@@ -1,14 +1,13 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
-import moment from 'moment'
+import { graphql } from 'gatsby'
 import Layout from '../components/layout/layout'
 import Seo from '../components/seo'
 
 const CategoryTemplate = ({ data }) => {
     const {
         name,
-        description,
-        posts
+        // description,
+        // posts
     } = data.wpCategory;
     return (
         <Layout>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import moment from 'moment'
 import Layout from '../components/layout/layout'
 import Seo from '../components/seo'
@@ -22,13 +22,13 @@ export default function PostTemplate({ data }) {
                   </div>
                 </div>
               </div>
-              <img src="/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100" />
-              <img src="/images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2" />
-              <img src="/images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3" />
-              <img src="/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4" />
-              <img src="/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5" />
-              <img src="/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6" />
-              <img src="/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7" />
+              <img src="/images/illustrations/page-title.png" alt="" class="bg-shape-1 w-100" />
+              <img src="/images/illustrations/leaf-pink-round.png" alt="" class="bg-shape-2" />
+              <img src="/images/illustrations/dots-cyan.png" alt="" class="bg-shape-3" />
+              <img src="/images/illustrations/leaf-orange.png" alt="" class="bg-shape-4" />
+              <img src="/images/illustrations/leaf-yellow.png" alt="" class="bg-shape-5" />
+              <img src="/images/illustrations/dots-group-cyan.png" alt="" class="bg-shape-6" />
+              <img src="/images/illustrations/leaf-cyan-lg.png" alt="" class="bg-shape-7" />
             </section>
             <section class="section">
               <div class="container">
@@ -41,7 +41,7 @@ export default function PostTemplate({ data }) {
                       )
                     })}</p>
                     <span style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '3rem 0'}}>
-                      <img src={post.featuredImage.node.sourceUrl} style={{width: '85%'}} />
+                      <img src={post.featuredImage.node.sourceUrl} style={{width: '85%'}} alt={post.title} />
                     </span>
                     <SocialShare />
                     <div class="content" dangerouslySetInnerHTML={{__html: post.content}}/>

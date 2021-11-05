@@ -426,7 +426,8 @@ textarea.form-control {
   }
 }
 
-.navbar .nav-item .nav-link {
+.navbar .nav-item .nav-link,
+.navbar .nav-item a {
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
   padding: 15px;
@@ -435,7 +436,8 @@ textarea.form-control {
   font-weight: bold;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav a {
   color: #fff;
 }
 

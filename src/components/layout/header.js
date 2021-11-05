@@ -30,7 +30,6 @@ const Header = ({ siteTitle }) => (
           </button>
           <div class="collapse navbar-collapse text-center" id="navigation">
             <ul class="navbar-nav ml-auto">
-              <li className="nav-item"><Link className="nav-link" to={`/`}>Home</Link></li>
               {data.allWpMenu.edges[0].node.menuItems.nodes.map(item => {
                 return (
                   <li class="nav-item">

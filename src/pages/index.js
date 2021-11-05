@@ -13,7 +13,13 @@ const IndexPage = ({ data }) => (
       <div class="container">
         <div class="row">
           <div class="col-lg-11 mx-auto">
-            <h1 class="text-white font-tertiary headliner">Moses <br />Maximino<br /> Cosme II</h1>
+            <h1 class="text-white font-tertiary headliner">
+              Full Stack<br />
+              Developer<br /><hr style={{border: '4px solid black', width: '30%', margin: '0', padding: '0', textAlign: 'left'}}/>
+              Wordpress<br />
+              React<br />
+              Node
+            </h1>
           </div>
         </div>
       </div>

@@ -77,7 +77,7 @@ const IndexPage = ({ data }) => (
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <p class="font-secondary paragraph-lg text-dark" dangerouslySetInnerHTML={{__html: data.wpPage.content}}/>
+            <span class="font-secondary paragraph-lg text-dark" dangerouslySetInnerHTML={{__html: data.wpPage.content}}/>
             <Link to="/about" class="btn btn-transparent">know more</Link>
           </div>
         </div>
